@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
 encoding//src/test/AddLinkDataServlet.java=UTF-8
+encoding//src/test/MailSendServlet.java=UTF-8
+encoding//src/test/MyServlet.java=UTF-8
+encoding//war/lib.js=UTF-8

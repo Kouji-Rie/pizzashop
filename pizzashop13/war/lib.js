@@ -16,7 +16,7 @@ function createHttpRequest(){
 function getData(id){
     var request = createHttpRequest();
     if (request == null){
-        alert("HttpRequestが取得できませんでした。");
+        alert("HttpRequest取得できませんでした");
         return;
     }
     var uri = "/testgae";

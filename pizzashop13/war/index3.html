@@ -21,6 +21,7 @@
                 res += '<tr><td>' + json[0].title +'</td></tr>';
                 res += '<tr><td>' + json[0].url +'</td></tr>';
                 res += '<tr><td>' + json[0].comment +'</td></tr>';
+                res += '<tr><td><a href="del.html?id=' + json[0].id + '">Delete</td></tr>';
             } else {
                 for (var i = 0;i < json.length;i++){
                     res += '<tr><td><a href="javascript:return false;" onclick="getData(' + json[i].id +');">' + json[i].id + '</a></td>';
